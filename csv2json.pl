@@ -8,8 +8,6 @@ use Text::CSV;
 use Data::Dumper;
 use JSON;
 
-use constant CSV_FILE => "conwiz.csv";
-
 sub get_csv_hash{
 	my $csv = Text::CSV->new({ sep_char => ',' });
 	my ($file) = @_;
